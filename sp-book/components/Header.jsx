@@ -11,8 +11,8 @@ function Header() {
             className="rounded-full"
             src={img}
             alt="logo"
-            width={50}
-            height={50}
+            width={100}
+            height={100}
           />
         </Link>
         <h1>Sievers Designs</h1>
@@ -24,7 +24,13 @@ function Header() {
         >
           Navigate to S.D Portfolio
         </Link>
+
+        {/* <div>
+        TODO: Dark Mode Toggle Component
+      </div> */}
       </div>
+
+      
     </header>
   );
 }
